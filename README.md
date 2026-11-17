@@ -6,6 +6,8 @@
 
 A chess engine in a single 4 KB Python file: 0x88 board, negamax alpha-beta with transposition table, quiescence search, iterative deepening on a fixed node budget, material + piece-square evaluation with bishop pair. Practice Elo 1,521 on the kit's 6-game trials (floor 1,154).
 
+Engine: `main.py` is 3,242 bytes, packed from a readable 8,048-byte source with the kit's `makefun compress`; deterministic, fixed 150,000-node budget, ~3–4 s/move.
+
 ## Run it
 
 ```sh
